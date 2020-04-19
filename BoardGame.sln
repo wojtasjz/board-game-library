@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGame.Engine", "BoardGame.Engine\BoardGame.Engine.csproj", "{233BBE2B-9C23-446A-BD83-1EB3461A8FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGame.Engine.Tests", "tests\BoardGame.Engine.Tests\BoardGame.Engine.Tests.csproj", "{A4071D16-D4F3-4316-BBAF-DEB8E8CB2615}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{67BC7165-DAC9-4F59-85C0-68CB88AE152F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{233BBE2B-9C23-446A-BD83-1EB3461A8FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233BBE2B-9C23-446A-BD83-1EB3461A8FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233BBE2B-9C23-446A-BD83-1EB3461A8FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233BBE2B-9C23-446A-BD83-1EB3461A8FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4071D16-D4F3-4316-BBAF-DEB8E8CB2615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4071D16-D4F3-4316-BBAF-DEB8E8CB2615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4071D16-D4F3-4316-BBAF-DEB8E8CB2615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4071D16-D4F3-4316-BBAF-DEB8E8CB2615}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4071D16-D4F3-4316-BBAF-DEB8E8CB2615} = {67BC7165-DAC9-4F59-85C0-68CB88AE152F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE44E091-5242-4ECE-B11B-443EA671DED2}
+	EndGlobalSection
+EndGlobal
